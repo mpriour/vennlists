@@ -1,0 +1,11 @@
+{
+  "name": "vennlists",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "d3": "^4.10.0",
+    "venn.js": "^0.2.15"
+  }
+}
