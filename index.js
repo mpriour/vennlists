@@ -18,7 +18,7 @@ fetch("data/lists.json").then(readJSON).then(data => {
     } );
     Promise.all(lists.map( li => li.loaded )).then(results => {
         console.log(results);
-        const l1 = lists[0];
+        const l1 = results[0];
         const users = l1.users;
         const handles = l1.handles;
         const userArray = l1.asArray();
